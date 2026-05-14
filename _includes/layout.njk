@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Ambert</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 
 
@@ -12,13 +12,13 @@
 
 <header>
   <b><a href="/">Ambert Through My Eyes</a></b><br>
-  <a href="/writing">Writing</a>
+  <a href="{{ 'writing' | url }}">Writing</a>
 
 </header>
 
   {{ content | safe }}
 
-  <script src="/js/preview.js"></script>
+  <script src="{{ '/js/preview.js' | url }}"></script>
 
   
 

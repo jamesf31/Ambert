@@ -16,7 +16,7 @@ title: Home
       >
 
         <img
-            src="{{ project.inputPath | coverImage }}"
+            src="{{ project.inputPath | coverImage | url }}"
             alt="{{ project.data.title }}"
         >
 
@@ -34,7 +34,7 @@ title: Home
 
         {% for image in project.inputPath | previewImages %}
 
-          <img src="{{ image }}" alt="">
+          <img src="{{ image | url }}">
 
         {% endfor %}
 
