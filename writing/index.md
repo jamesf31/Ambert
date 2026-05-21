@@ -5,12 +5,12 @@ title: Writing
 <div class = "site">
 <aside class = "sidebar">
     <img
-            src="01.jpg"
-            alt=""
+            src="{{ '/writing/01.jpg' | url }}"
+    alt=""
         >
     <img
-        src="02.jpg"
-        alt=""
+         src="{{ '/writing/02.jpg' | url }}"
+    alt=""
     >
 </aside>
 <main class="scrollable-preview-area">
