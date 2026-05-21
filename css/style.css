@@ -173,7 +173,7 @@ body {
 
 .project-page {
 
-  overflow-y: scroll;
+  padding: 60px;
 }
 
 .project-text {
@@ -183,24 +183,16 @@ body {
 
 .project-images {
 
-    top: 0;
-  right: 0;
-
   width: 72vw;
-  height: 100vh;
 
   padding: 60px;
-
-  inset: 60px;
-
-  pointer-events: none;
 
   display: flex;
   flex-wrap: wrap;
 
-  align-items: flex-start;
-
   gap: 60px 40px;
+
+  align-items: flex-start;
 }
 
 .project-page::after {
