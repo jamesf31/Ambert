@@ -66,9 +66,16 @@ body {
 
   padding: 12px;
   padding-top: 80px;
+  padding-bottom: 100vh;
 
   overflow-y: auto;
 
+}
+
+.sidebar img {
+  display: block;
+  width:100%;
+  margin-bottom: 56px;
 }
 
 .project-link {
