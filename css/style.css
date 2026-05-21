@@ -203,7 +203,7 @@ body {
   gap: 60px 40px;
 }
 
-.project-images::after {
+.project-page::after {
   content: "";
 
   display: block;
