@@ -1,8 +1,6 @@
 ---
 layout: project.njk
-title: Wood Dyed Paper
+title: Waterfall
 ---
 
-Wood, pigment, steel.
-
-Created in 2025.
+vertical things

@@ -1,8 +1,6 @@
 ---
 layout: project.njk
-title: Wood Dyed Paper
+title: Path
 ---
 
-Wood, pigment, steel.
-
-Created in 2025.
+things made by man

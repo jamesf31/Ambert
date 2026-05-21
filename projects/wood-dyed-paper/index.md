@@ -1,8 +1,6 @@
 ---
 layout: project.njk
-title: Wood Dyed Paper
+title: Friends
 ---
 
-Wood, pigment, steel.
-
-Created in 2025.
+people!
