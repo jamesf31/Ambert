@@ -186,6 +186,7 @@ body {
   width: 72vw;
 
   padding: 60px;
+  padding-left: 28vw;
 
   display: flex;
   flex-wrap: wrap;
