@@ -4,7 +4,14 @@ title: Writing
 ---
 <div class = "site">
 <aside class = "sidebar">
-
+    <img
+            src="01.jpg"
+            alt=""
+        >
+    <img
+        src="02.jpg"
+        alt=""
+    >
 </aside>
 <main class="scrollable-preview-area">
 
