@@ -20,6 +20,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("projects");
+  eleventyConfig.addPassthroughCopy("writing");
 
   eleventyConfig.addCollection("projects", function(collectionApi) {
     return collectionApi.getFilteredByGlob("projects/**/index.md");
@@ -55,7 +56,7 @@ module.exports = function(eleventyConfig) {
     });
 
     return {
-  pathPrefix: "/Ambert/"
-};
+      pathPrefix: "/Ambert/"
+    };
 
 };

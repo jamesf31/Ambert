@@ -77,6 +77,14 @@ body {
   margin-bottom: 56px;
 }
 
+.sidebar::after {
+  content: "";
+
+  display: block;
+
+  height: 80vh;
+}
+
 .project-link {
   display: block;
 
