@@ -173,7 +173,7 @@ body {
 
 .project-page {
 
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .project-text {
@@ -201,6 +201,14 @@ body {
   align-items: flex-start;
 
   gap: 60px 40px;
+}
+
+.project-images::after {
+  content: "";
+
+  display: block;
+
+  height: 80vh;
 }
 
 .project-images img {
