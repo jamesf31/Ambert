@@ -6,36 +6,33 @@ layout: layout.njk
 
   <aside class="sidebar">
 
+    <div class="sidebar-inner">
+
+      <a href="{{ '/' | url }}">
+        Index
+      </a>
+
+    </div>
+
+  </aside>
+
   <main class="project-page">
 
     <div class="project-text">
 
-      
+      <h1>{{ title }}</h1>
 
-      
+      {{ content | safe }}
 
     </div>
 
-    </aside>
-
     <div class="project-images">
 
-        <img
-            src="{{ project.inputPath | coverImage | url }}"
-            alt=""
-        >
+      {% for image in page.inputPath | fullImages %}
 
-        {% for image in page.inputPath | previewImages %}
+        <img src="{{ image | url }}" alt="">
 
-          <img src="{{ image | url }}">
-
-        {% endfor %}
-
-        {% for image in page.inputPath | fullImages %}
-
-            <img src="{{ image | url }}">
-
-        {% endfor %}
+      {% endfor %}
 
     </div>
 
